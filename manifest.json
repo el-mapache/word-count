@@ -1,0 +1,17 @@
+  {
+    "name": "word-count",
+    "version": "1.0",
+    "description": "get word counts of highlighted text",
+    "manifest_version": 2,
+    "permissions": [
+      "activeTab",
+      "tabs",
+      "contextMenus",
+      "http://*/*"
+    ],
+    "background": {
+      "scripts": [
+        "background.js"
+      ]
+    }
+  }
